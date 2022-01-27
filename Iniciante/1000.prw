@@ -1,0 +1,7 @@
+#INCLUDE 'PROTHEUS.CH'
+#INCLUDE 'PARMTYPE.CH'
+USER FUNCTION 1000()
+
+MsgAlert("Primeiro Programa!")
+
+RETURN
