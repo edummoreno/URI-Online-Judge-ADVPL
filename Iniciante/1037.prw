@@ -6,7 +6,7 @@ user function 1037()
 local a := 0.0
 
 a := val(FWInputbox("digite um numero:",""))
-if(a<0 .or. a>0)
+if(a<0 .or. a>100)
     Alert("Fora de intervalo")
 elseif(a<=25.0)
     Alert("Intervalo (0,25]")

@@ -19,9 +19,9 @@ distancia := (velocidade * tempo)
 //distancia  - litros
 //distancia = 12litros
 //litros = distancia / 12
-
 litros = (distancia / 12)
 
+//cvaltochar conversão de numero em string sem espaços
 alert(cvaltochar(litros) + " litros" )
 
 return
