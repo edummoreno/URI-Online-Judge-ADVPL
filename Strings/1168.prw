@@ -27,7 +27,7 @@ local j := 0
 local x := ""
 
 N := val(FWInputbox("Digite N ente 1 e 1000",""))
-//loop principal vai, quantas vezes vai ler um numero
+//loop principal, quantas vezes vai ler um numero
 for i := 1 to N step 1
     x := FWInputbox("Digite x","")
     //segundo loop, vai ler todas as casas do numero
