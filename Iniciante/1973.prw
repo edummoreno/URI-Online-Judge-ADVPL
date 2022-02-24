@@ -1,6 +1,6 @@
 #include 'protheus.ch'
 #include 'parmtype.ch'
-
+/*Precisa de correção está dando 1 a menos em cada valor*/
 user function 1973()
 
 local a := 0
