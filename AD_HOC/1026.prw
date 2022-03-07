@@ -18,14 +18,14 @@ Portanto,
 Claro que já é uma boa coisa ele finalmente ter encontrado o seu erro, mas isso foi muito tarde.
 Considerando seu esforço durante o curso, o instrutor deu a ele mais uma chance:
 Mofiz teria que escrever um programa eficiente que pegaria 2 valores decimais de 32 bits sem sinal como entrada
-e deveria produzir um número de 32 bits sem sinal como saída, ou seja, somando do mesmo modo como o circuito faz.
+e deveria produzir um numero de 32 bits sem sinal como saída, ou seja, somando do mesmo modo como o circuito faz.
 */
 user function 1026()
 
-A := NIL
-B := NIL
-A := abs(val(FWInputbox("Digite A","")))
-//B := abs(val(FWinputbox("Digite B","")))
-//-999.999.999.999.999
-MsgAlert(A)
+    A := NIL
+    B := NIL
+    A := abs(val(FWInputbox("Digite A","")))
+    //B := abs(val(FWinputbox("Digite B","")))
+    //-999.999.999.999.999
+    MsgAlert(A)
 return NIL
